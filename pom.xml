@@ -720,14 +720,14 @@ limitations under the License.]]></inlineHeader>
   </repositories>
   <distributionManagement>
     <repository>
-      <id>datastax-releases-local</id>
-      <name>DataStax Local Releases</name>
-      <url>https://repo.sjc.dsinternal.org/artifactory/datastax-releases-local/</url>
+      <id>carrefour-releases</id>
+      <name>Carrefour releases</name>
+      <url>https://nexus.phenix.carrefour.com/content/repositories/stables</url>
     </repository>
     <snapshotRepository>
-      <id>datastax-snapshots-local</id>
-      <name>DataStax Local Snapshots</name>
-      <url>https://repo.sjc.dsinternal.org/artifactory/datastax-snapshots-local/</url>
+      <id>carrefour-snapshots</id>
+      <name>Carrefour snapshots</name>
+      <url>https://nexus.phenix.carrefour.com/content/repositories/snapshots</url>
     </snapshotRepository>
   </distributionManagement>
   <licenses>
